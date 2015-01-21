@@ -50,6 +50,7 @@ int main()
 
 	for (i = 0; i < n; i++)
 		fprintf(fout, "%s %d\n", np[i].name, np[i].money);
-
+	fclose(fin);
+	fclose(fout);
 	return 0;
 }
