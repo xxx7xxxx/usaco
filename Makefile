@@ -1,4 +1,4 @@
 .PHONY: a.out
 
 a.out: main.c
-	gcc main.c
+	gcc -g main.c
