@@ -2,7 +2,7 @@
 ID: longyun3
 LANG: C
 PROG: beads
- */
+*/
 
 /*My solotion is a bit complex, I'll improve it in future*/
 #include <stdio.h>
@@ -64,7 +64,7 @@ int left_count(char necklace[], int point, int len)
 	original_color = necklace[point];
 
 	for (i = 0; i < len-1; i++) {
-		left_point = 
+		left_point =
 		point == 0 ? len-1 : point-1;
 		/*if original_color is 'w', we shoule change it to the color
 		  we meet firstly, which is not 'w'*/
