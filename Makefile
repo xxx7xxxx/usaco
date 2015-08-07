@@ -1,4 +1,4 @@
 .PHONY: a.out
 
-a.out: main.c
+a.out: main.cc
 	g++ -g main.cc
